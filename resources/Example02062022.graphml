@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+        http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="name" attr.type="string"/>
+  <key id="d1" for="node" attr.name="abstract" attr.type="boolean"/>
+  <key id="d2" for="node" attr.name="type" attr.type="string"/>
+ <key id="d7" for="node" attr.name="activeDefense" attr.type="string"/>
+
+
+<key id="d3" for="edge" attr.name="type" attr.type="string"/>
+<key id="d5" for="edge" attr.name="name" attributes.type="string" />
+<key id="d6" for="edge" attr.name="abstract" attr.type="boolean" />
+<key id="d4" for="edge" attr.name="attacksurface" attr.type="string"/>
+
+
+  <graph id="G" edgedefault="directed">
+	<node id="n0">
+      <data key="d0">actuator12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">Actuator</data>
+    </node>
+	<node id="n1">
+      <data key="d0">controlSignal12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">ControlSignal</data>
+    </node>
+	<node id="n2a">
+      <data key="d0">TLE4972</data>
+	  <data key="d1">false</data>
+	  <data key="d2">Sensor</data>
+    </node>
+	<node id="n3">
+      <data key="d0">signal12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">Signal</data>
+    </node>
+	<node id="n4">
+      <data key="d0">SICAM A8000</data>
+	  <data key="d1">false</data>
+	  <data key="d2">Controller</data>
+    </node>
+	<node id="n5">
+      <data key="d0">iCSData12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">IcsData</data>
+    </node>
+	<node id="n6">
+      <data key="d0">iCSControlData12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">IcsControlData</data>
+    </node>
+	<node id="n7">
+      <data key="d0">connectionRule12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">ConnectionRule</data>
+    </node>
+	<node id="n8">
+      <data key="d0">iOServer12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">IOServer</data>
+    </node>
+	<node id="n9">
+      <data key="d0">network12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">Network</data>
+    </node>
+	<node id="n10">
+      <data key="d0">icsData12346</data>
+	  <data key="d1">false</data>
+	  <data key="d2">IcsData</data>
+    </node>
+	<node id="n11">
+      <data key="d0">icsControlData12346</data>
+	  <data key="d1">false</data>
+	  <data key="d2">IcsControlData</data>
+    </node>
+	<node id="n12">
+      <data key="d0">connectionRule12346</data>
+	  <data key="d1">false</data>
+	  <data key="d2">ConnectionRule</data>
+    </node>
+	<node id="n13">
+      <data key="d0">routingFirewallUknown</data>
+	  <data key="d1">true</data>
+	  <data key="d2">RoutingFirewall</data>
+    </node>
+	<node id="n14">
+      <data key="d0">iCSData12347</data>
+	  <data key="d1">false</data>
+	  <data key="d2">IcsData</data>
+    </node>
+	<node id="n15">
+      <data key="d0">iCSControlData12347</data>
+	  <data key="d1">false</data>
+	  <data key="d2">IcsControlData</data>
+    </node>
+	<node id="n16">
+      <data key="d0">connectionRule12347</data>
+	  <data key="d1">false</data>
+	  <data key="d2">ConnectionRule</data>
+    </node>
+	<node id="n17">
+      <data key="d0">connectionRule123458</data>
+	  <data key="d1">false</data>
+	  <data key="d2">ConnectionRule</data>
+    </node>
+	<node id="n18">
+      <data key="d0">hMISiemens</data>
+	  <data key="d1">false</data>
+	  <data key="d2">HMI</data>
+    </node>
+	<node id="n19">
+      <data key="d0">Simatic Step 7</data>
+	  <data key="d1">false</data>
+	  <data key="d2">EngineeringWorkstation</data>
+    </node>
+	<node id="n20">
+      <data key="d0">network123456</data>
+	  <data key="d1">false</data>
+	  <data key="d2">Network</data>
+    </node>
+	<node id="n21">
+      <data key="d0">attacker12345</data>
+	  <data key="d1">false</data>
+	  <data key="d2">Attacker</data>
+    </node>
+	<node id="n22">
+      <data key="d0">openwrt</data>
+	  <data key="d1">false</data>
+	  <data key="d2">RoutingFirewall</data>
+    </node>
+	<node id="n23">
+      <data key="d0">Mikro Tik RB4011</data>
+	  <data key="d1">false</data>
+	  <data key="d2">RoutingFirewall</data>
+    </node>
+    <edge id="e0" source="n0" target="n1">
+      <data key="d3">ActuatorSignal</data>
+      <data key="d5">actuatorSignal1</data>
+      <data key="d6">false</data>
+    </edge>
+    <edge id="e1" source="n1" target="n4">
+      <data key="d3">AppTransmittedControlSignal</data>
+   	<data key="d5">appTransmittedControlSignal1</data>
+      <data key="d6">false</data>
+    </edge>
+    <edge id="e2" source="n2a" target="n3">
+      <data key="d3">SensorSignal</data>
+<data key="d5">sensorSignal1</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e3" source="n3" target="n4">
+      <data key="d3">AppReceivedSignal</data>
+<data key="d5">appReceivedSignal1</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e4" source="n4" target="n5">
+      <data key="d3">SendData</data>
+<data key="d5">sendData1</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e5" source="n4" target="n6">
+      <data key="d3">ReceiveData</data>
+<data key="d5">receiveData1</data>
+      <data key="d6">false</data>
+    </edge>	
+	<edge id="e6" source="n4" target="n7">
+      <data key="d3">ApplicationConnection</data>
+<data key="d5">applicationConnection1</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e7" source="n4" target="n9">
+      <data key="d3">NetworkExposure</data>
+<data key="d5">networkExposure1</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e8" source="n5" target="n8">
+      <data key="d3">ReceiveData</data>
+<data key="d5">receiveData2</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e9" source="n6" target="n8">
+      <data key="d3">SendData</data>
+<data key="d5">sendData2</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e10" source="n7" target="n8">
+      <data key="d3">ApplicationConnection</data>
+<data key="d5">applicationConnection2</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e11" source="n8" target="n9">
+      <data key="d3">NetworkExposure</data>
+<data key="d5">networkExposure2</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e12" source="n11" target="n8">
+      <data key="d3">ReceiveData</data>
+<data key="d5">receiveData3</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e13" source="n10" target="n8">
+      <data key="d3">SendData</data>
+<data key="d5">sendData3</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e14" source="n12" target="n8">
+		<data key="d3">ApplicationConnection</data>
+<data key="d5">applicationConnection3</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e15" source="n13" target="n9">
+      <data key="d3">NetworkExposure</data>
+<data key="d5">networkExposure3</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e16" source="n12" target="n13">
+		<data key="d3">ApplicationConnection</data>
+<data key="d5">applicationConnection4</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e17" source="n11" target="n13">
+      <data key="d3">SendData</data>
+<data key="d5">sendData4</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e18" source="n10" target="n13">
+      <data key="d3">ReceiveData</data>
+<data key="d5">receiveData4</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e19" source="n14" target="n13">
+      <data key="d3">SendData</data>
+<data key="d5">sendData5</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e20" source="n15" target="n13">
+      <data key="d3">ReceiveData</data>
+<data key="d5">receiveData5</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e21" source="n16" target="n13">
+		<data key="d3">ApplicationConnection</data>
+<data key="d5">applicationConnection5</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e22" source="n17" target="n13">
+		<data key="d3">ApplicationConnection</data>
+<data key="d5">applicationConnection6</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e23" source="n14" target="n18">
+      <data key="d3">ReceiveData</data>
+<data key="d5">receiveData6</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e24" source="n15" target="n18">
+      <data key="d3">SendData</data>
+<data key="d5">sendData6</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e25" source="n16" target="n18">
+		<data key="d3">ApplicationConnection</data>
+<data key="d5">applicationConnection7</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e26" source="n17" target="n19">
+		<data key="d3">ApplicationConnection</data>
+<data key="d5">applicationConnection8</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e27" source="n18" target="n20">
+		<data key="d3">NetworkExposure</data>
+<data key="d5">networkExposure4</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e28" source="n19" target="n20">
+		<data key="d3">NetworkExposure</data>
+<data key="d5">networkExposure5</data>
+      <data key="d6">false</data>
+    </edge>
+	<edge id="e29" source="n21" target="n9">
+		<data key="d3">Attack</data>
+<data key="d5">attack1</data>
+      <data key="d6">false</data>
+		<data key="d4">physicalAccess</data>
+    </edge>
+	<edge id="e30" source="n22" target="n13">
+		<data key="d3">Realization</data>
+    </edge>
+	<edge id="e31" source="n23" target="n13">
+		<data key="d3">Realization</data>
+    </edge>
+  </graph>
+</graphml>
